@@ -7,3 +7,5 @@
 ```
   curl -d @datos.json -H "Content-type: application/json" -X POST http://127.0.0.1:5984/su-base/_bulk_docs
 ```
+pasar un jeson q sea aceptado por couch
+dos base de datos una  permita leer el json y otro q envie la nformacion y q vaya documento por ducumento

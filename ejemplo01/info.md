@@ -8,3 +8,6 @@
   curl -d @datos.json -H "Content-type: application/json" -X POST http://127.0.0.1:5984/su-base/_bulk_docs
 ```
 4. Ingresar a Fauxton y comprar que la data esté disponible
+
+
+curl -d @datos.json -H "Content-type: application/json" -X POST http://127.0.0.1:5984/su-persona001/_bulk_docs
